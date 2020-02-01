@@ -1,0 +1,11 @@
+<script>
+  window.emojicsOpts = {
+	widget: &#39;010f2a0bd98ec322aedaa020199ad0&#39;,
+	position: &#39;inline&#39;
+  };
+  (function(d, e, id) {
+    function s() {var js, a = d.getElementsByTagName(&quot;script&quot;)[0];js = d.createElement(&quot;script&quot;);js.id = id;js.src = &quot;//connect.emojics.com/dist/sdk.js&quot;;a.parentNode.insertBefore(js, a);}
+    window.emojics=e;e.readyQueue=[];e.ready=function(b){e.readyQueue.push(b)}
+    window.attachEvent?window.attachEvent(&quot;onload&quot;,s):window.addEventListener(&quot;load&quot;,s)
+  })(document, window.emojics||{}, &quot;emojics-js&quot;);
+</script>
